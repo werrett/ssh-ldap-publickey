@@ -1,0 +1,16 @@
+# Temp files
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# OSX
+.DS_Store
+
+# Binary output
+ssh-ldap-publickey
+
+# Test files
+testfiles/*

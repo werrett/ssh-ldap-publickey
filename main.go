@@ -16,7 +16,7 @@ import (
 )
 
 var config = make(map[string]string)
-var configFile = "testfiles/ldap.conf"
+var configFile = "/etc/openldap/ldap.conf"
 var configRegexp = regexp.MustCompile(`^(\w+)\s+(.+)$`)
 var sshAttributeName = "sshPublicKey"
 var flagVerbose bool
